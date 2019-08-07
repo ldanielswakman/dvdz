@@ -1,0 +1,25 @@
+Title: Extase I
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 100
+
+----
+
+Size-height: 130
+
+----
+
+Year: 1981
+
+----
+
+Visible: true

@@ -1,0 +1,25 @@
+Title: Man in oerwoud
+
+----
+
+Technique: 
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 20
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1986
+
+----
+
+Visible: false

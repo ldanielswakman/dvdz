@@ -1,0 +1,25 @@
+Title: N IX
+
+----
+
+Technique: Aquarel
+
+----
+
+Technique-old: aquarel
+
+----
+
+Size-width: 23
+
+----
+
+Size-height: 32
+
+----
+
+Year: 1991
+
+----
+
+Visible: true

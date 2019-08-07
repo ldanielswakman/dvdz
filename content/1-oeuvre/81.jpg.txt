@@ -1,0 +1,25 @@
+Title: Rode Rhapsodie
+
+----
+
+Technique: 
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 80
+
+----
+
+Size-height: 100
+
+----
+
+Year: 1988
+
+----
+
+Visible: false

@@ -1,0 +1,25 @@
+Title: Kind V
+
+----
+
+Technique: 
+
+----
+
+Technique-old: acryl/doek
+
+----
+
+Size-width: 55
+
+----
+
+Size-height: 72
+
+----
+
+Year: 1992
+
+----
+
+Visible: false

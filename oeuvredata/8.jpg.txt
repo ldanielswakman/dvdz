@@ -1,0 +1,21 @@
+Title: Betrapt
+
+----
+
+Technique: olieverf/doek
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 50
+
+----
+
+Size-height: 60
+
+----
+
+Year: 1982

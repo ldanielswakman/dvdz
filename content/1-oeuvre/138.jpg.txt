@@ -1,0 +1,25 @@
+Title: Mia III
+
+----
+
+Technique: Aquarel
+
+----
+
+Technique-old: aquarel
+
+----
+
+Size-width: 25
+
+----
+
+Size-height: 32
+
+----
+
+Year: 1991
+
+----
+
+Visible: true

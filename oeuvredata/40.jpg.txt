@@ -1,0 +1,21 @@
+Title: Man I
+
+----
+
+Technique: olieverf/doek
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 25
+
+----
+
+Size-height: 20
+
+----
+
+Year: 1986

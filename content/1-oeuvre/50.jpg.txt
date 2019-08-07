@@ -1,0 +1,25 @@
+Title: Man VII
+
+----
+
+Technique: 
+
+----
+
+Technique-old: acryl/doek
+
+----
+
+Size-width: 20
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1986
+
+----
+
+Visible: false

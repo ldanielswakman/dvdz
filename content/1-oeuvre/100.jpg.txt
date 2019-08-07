@@ -1,0 +1,25 @@
+Title: Drie mythen
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 130
+
+----
+
+Size-height: 100
+
+----
+
+Year: 1990
+
+----
+
+Visible: true

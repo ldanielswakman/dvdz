@@ -1,0 +1,25 @@
+Title: Hangend
+
+----
+
+Technique: 
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 100
+
+----
+
+Size-height: 130
+
+----
+
+Year: 1987
+
+----
+
+Visible: false

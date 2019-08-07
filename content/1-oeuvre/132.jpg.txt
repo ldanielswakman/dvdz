@@ -1,0 +1,25 @@
+Title: N VI
+
+----
+
+Technique: Aquarel
+
+----
+
+Technique-old: aquarel
+
+----
+
+Size-width: 48
+
+----
+
+Size-height: 65
+
+----
+
+Year: 1991
+
+----
+
+Visible: true

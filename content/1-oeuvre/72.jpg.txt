@@ -1,0 +1,25 @@
+Title: Man VIII
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 20
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1987
+
+----
+
+Visible: true

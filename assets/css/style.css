@@ -1,0 +1,787 @@
+/* ==================================================================================================================== */
+/* ---------------------------------------------   OEUVRE DVDZ STYLESHEET   --------------------------------------------*/
+/* ==================================================================================================================== */
+
+
+/* --- CSS Resets --- */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/* --- START font definitions --- */
+@font-face {
+    font-family: 'Perpetua';
+    src: url('../fonts/perpetuastd-webfont.eot');
+    src: url('../fonts/perpetuastd-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/perpetuastd-webfont.woff') format('woff'),
+        url('../fonts/perpetuastd-webfont.ttf') format('truetype'),
+        url('../fonts/perpetuastd-webfont.svg#Perpetua') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* --- GENERAL statements --- */
+html, body {
+    height: 100%;
+    
+    font-family: Georgia, Perpetua, serif;
+    font-size: 12pt;
+    letter-spacing: 0.1em;
+    line-height: 140%;
+    color: #333300;
+}
+
+body {
+    overflow-y: auto;
+}
+
+a {
+    color: #333300;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8b0000;
+    border-bottom: 1px solid #8b0000;
+}
+
+/* --- END font definitions --- */
+
+
+
+
+/* --- START nav statements --- */
+nav {
+    position: fixed;
+    z-index: 2;
+    
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid #c1bd87;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#logo {
+    position: fixed;
+    z-index: 4;
+    right: 20px;
+    margin-top: 120px;
+}
+
+#logo a:hover {
+    border: none;
+    text-decoration: none;
+}
+
+ul#menu {
+    margin-top: 14px;
+    float: left;
+}
+
+ul#menu a, ul#menu li {
+    display: inline-block;
+}
+
+ul#menu a {
+    margin: 0px 15px;
+}
+
+ul#menu > li:nth-child(4) {
+    margin-top: 5px;
+    display: block;
+}
+
+.active {
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+/* --- indent arrow (border) --- 
+ul#menu > li > a.active:before {
+    content: " ";
+    position: absolute; top: 100%; left: 50%; margin-left: -6px;
+    display: block; width: 0px; height: 0px;
+    border-left: 6px solid transparent; border-right: 6px solid transparent; border-top-width: 6px; border-top-style: solid;
+}
+ul#menu > li > a.active:after {
+    content: " ";
+    position: absolute; top: 100%; left: 50%; margin-left: -5px;
+    display: block; width: 0px; height: 0px;
+    border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #fff;
+}*/
+
+ul#menu a[href$="contact"]:after, ul#menu a[href$="contact"]:before {
+    display: none;
+}
+
+a.unfilter {
+    display: none;
+    width: 1em;
+    height: 1em;
+    margin: 8px 0px 0px 0px !important;
+    vertical-align: top;
+}
+
+/* --- kruisje --- */
+.unfilter:before, .unfilter:after { content: " "; display: block; position: absolute; border-top: 2px solid #ccc; width: 16px; height: 16px; }
+.unfilter:before { right: 0px; -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg); }
+.unfilter:after { right: 11px; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); }
+.unfilter:hover:before, .unfilter:hover:after { border-top-color: #333300; }
+
+.submenu > ul > li > a {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+    display: block;
+    border-bottom: 1px solid transparent;
+    
+    color: #ccc;
+    
+    -webkit-transition: box-shadow 0.3s; -moz-transition: box-shadow 0.3s; -ms-transition: box-shadow 0.3s; -o-transition: box-shadow 0.3s; transition: box-shadow 0.3s;
+}
+
+.submenu > ul > li > a:hover:not(.unfilter) {
+    color: #c1bd87;
+    border-bottom: 1px solid #c1bd87;
+}
+
+.submenu > ul > li > a.active {
+    border-bottom-color: #ccc;
+}
+
+/*li.submenu > ul > li > a:after {
+    content: "filter op";
+    
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    
+    display: none;
+    min-width: 80px;
+    
+    font-family: gotham;
+    text-transform: uppercase;
+    font-size: 50%;
+}*/
+
+.submenu a:hover:after {
+    display: block;
+}
+
+ul.refresh {
+    margin-left: -2px!important;
+    border: 1px solid #ccc;
+}
+
+ul.refresh li {
+    padding: 2px 5px;
+    color: #ccc;
+}
+
+
+
+ul#sort {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    float: left;
+    
+    display: block;
+    margin-top: 37px;
+    margin-left: 10px;
+    
+    font-family: Gotham, Century Gothic, sans-serif;
+    text-transform: uppercase;
+    font-size: 50%;
+}
+
+ul#sort a, ul#sort li {
+    display: inline-block;
+}
+
+ul#sort a {
+    margin: 0px 10px;
+}
+
+ul#sort a {
+    color: #ccc;
+}
+
+ul#sort a:hover {
+    color: #c1bd87;
+    border-bottom: 1px solid #c1bd87;
+}
+
+ul#sort .active {
+    border-bottom: 1px solid #ccc;
+}
+
+ul.sub-categories {
+    position: absolute;
+    z-index: 3;
+    
+    display: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    background-color: white;
+    border-top: 1px solid #c1bd87;
+    
+    text-align: left;
+}
+
+ul#menu ul.sub-categories li {
+    display: block;
+}
+
+ul.sub-categories li:first-child:before {
+    content: " ";
+    position: absolute; top: 0; margin-top: -6px; left: 20px;
+    display: block; width: 0px; height: 0px;
+    border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom-width: 6px; border-bottom-style: solid; border-bottom-color: #c1bd87;
+}
+ul.sub-categories li:first-child:after {
+    content: " ";
+    position: absolute; top: 0; margin-top: -5px; left: 21px;
+    display: block; width: 0px; height: 0px;
+    border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid #fff;
+}
+ul.sub-categories li:first-child:hover:after {
+    border-bottom-color: #c1bd87;
+}
+
+
+ul#menu ul.sub-categories li a {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    padding-right: 40px;
+    margin: 0;
+    
+    border-bottom: 1px solid #c1bd87;
+    border-left: 1px solid rgba(0,0,0,0.07);
+    border-right: 1px solid rgba(0,0,0,0.07);
+    
+    color: #c1bd87;
+}
+
+ul#menu ul.sub-categories li a:hover {
+    background-color: #c1bd87;
+    color: white;
+}
+
+ul#menu ul.sub-categories li a .quantity {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    display: block;
+    height: 100%;
+    width: 30px;
+    
+    font-family: Gotham, Century Gothic, sans-serif;
+    text-align: center;
+    font-size: 9pt;
+    line-height: 30px;
+    
+    background-color: rgba(0,0,0,0.07);
+}
+
+/* --- END nav statements --- */
+
+
+
+
+
+/* --- START content statements --- */
+.wrapper {
+    z-index: 1;
+    display: block;
+    height: 100%;
+    
+    box-sizing: border-box;
+    padding-top: 220px;
+}
+
+.wrapper#info {
+    border-top: 1px solid #ccc;
+}
+
+#container {
+    position: relative;
+    display: inline-block;
+    padding: 50px 100px 0px 20px;
+    /* creates horizontal scrolling stretch */
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+#container > * {
+    display: inline-block;
+    float: none;
+    white-space: normal;
+    vertical-align: top;
+}
+
+
+@-moz-document url-prefix() {
+    #container {
+        
+    }
+    
+    #container .item {
+    }
+}
+/* --- END general #container statements --- */
+
+
+
+
+
+/* --- START #detail statements --- */
+
+#detail {
+    position: fixed; left: 0px; top: 0px; z-index: 6!important;
+    display: flex; width: 100%; height: 100%;
+    max-width: 100vw; max-height: 100vh;
+    justify-content: center; align-items: center;
+    background: rgba(255,255,255,1);
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+#detail.isActive {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#detail .cross {
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+#detail .cross:before,
+#detail .cross:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    border-top: 2px solid #ccc;
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+#detail .cross:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+#detail .cross:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+#detail .cross:hover:before, #detail .cross:hover:after {
+    border-top: 2px solid #8b0000;
+    cursor: pointer;
+    opacity: 1;
+}
+
+#detail .img {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+}
+
+#detail .align-width {
+    display: inline-block;
+    /*width: 80%!important;*/
+    max-width: 80%;
+}
+
+#detail img {
+    height: 100%;
+    max-height: 100vh;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#detail .align-width img {
+    height: auto;
+    width: auto;
+}
+
+#detail .text {
+    position: absolute; top: 0px; left: 100%;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 0px;
+    font-size: 75%;
+    text-align: left;
+}
+
+#detail .text .techniek, #detail .text .afmeting, #detail .text .periode {
+    display: block;
+}
+
+/* --- END #detail statements --- */
+
+
+
+
+
+
+/* --- START #oeuvre item statements --- */
+
+.item {
+    position: relative;
+    
+    display: inline-block;
+    min-height: 50px;
+    min-width: 150px;
+    margin-right: 60px;
+    vertical-align: top;
+    
+    font-size: 9pt;
+    color: #666;
+    letter-spacing: 0.2em;
+    
+    /* init state */
+    display: none;
+}
+
+
+.item:hover {
+    cursor: pointer;
+}
+
+.info {
+    font-family: Gotham, Century Gothic, sans-serif;
+    margin-top: 20px;
+    color: #333300;
+    text-transform: uppercase;
+    
+    max-width: 400px;
+}
+
+.info span:not(.titel) {
+    display: none;
+    text-transform: uppercase;
+}
+
+@media screen and (min-height: 600px) {
+    .item:hover .info span {
+        display: block;
+    }
+}
+
+.info .titel {
+    color: #8b0000;
+    font-weight: bold;
+}
+
+.capped {
+    display: inline-block;
+    width: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #c1bd87;
+}
+
+.image img {
+    max-height: calc(100vh - 200px);
+}
+@media screen and (min-height: 400px) {
+    .image img {
+        max-height: calc(100vh - 300px);
+    }
+}
+@media screen and (min-height: 600px) {
+    .image img {
+        max-height: calc(100vh - 460px);
+        max-width: calc(100vh - 400px);
+    }
+    .item:nth-child(odd) .image img {
+        max-height: calc(100vh - 420px);
+        max-width: calc(100vh - 420px);
+    }
+}
+
+.load-more {
+    position: relative;
+    
+    display: inline-block;
+    width: 100px;
+    height: 250px;
+    box-sizing: border-box;
+    padding-right: 20px;
+    
+    font-family: Gotham, Century Gothic, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.load-more a {
+    position: relative;
+    top: 100px;
+    
+    display: block;
+    
+    color: #c1bd87;
+}
+
+.load-more a:hover {
+    border: none;
+    color: #8b0000;
+}
+
+.load-more span {
+    font-size: 3em;
+}
+
+/* --- END #oeuvre container & item statements --- */
+
+
+
+/* --- START #info statements--- */
+
+h2 {
+    width: 300px;
+    color: #8b0000;
+}
+
+h2 a {
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    color: #c1bd87;
+}
+
+p {
+    max-width: 300px;
+    margin-right: 20px;
+    font-size: 11pt;
+    line-height: 160%;
+}
+
+p.small {
+    width: 250px;
+}
+
+p a {
+    color: #8b0000;
+    font-style: italic;
+}
+
+/* --- END #info statements--- */
+
+
+
+
+/* --- isotope statements--- */
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+       -moz-transition-duration: 0.8s;
+        -ms-transition-duration: 0.8s;
+         -o-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  
+  .isotope {
+    -webkit-transition-property: height, width;
+       -moz-transition-property: height, width;
+        -ms-transition-property: height, width;
+         -o-transition-property: height, width;
+            transition-property: height, width;
+  }
+  
+  .isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+       -moz-transition-property:    -moz-transform, opacity;
+        -ms-transition-property:     -ms-transform, opacity;
+         -o-transition-property:         top, left, opacity;
+            transition-property:         transform, opacity;
+  }
+  
+  /**** disabling Isotope CSS3 transitions ****/
+  
+  .isotope.no-transition,
+  .isotope.no-transition .isotope-item,
+  .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+       -moz-transition-duration: 0s;
+        -ms-transition-duration: 0s;
+         -o-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+
+/* --- END ISOTOPE statements--- */
+
+
+
+
+/* --- responsive CSS statements--- */
+
+@media only screen and (min-height: 0px) and (max-height: 650px) {
+    body { overflow-y: scroll; }
+    
+    nav { padding-top: 20px; }
+    #logo { margin-top: 20px; }
+    .wrapper { padding-top: 120px; }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    
+    #logo img {
+        width: 90%;
+        right: 0px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    body { overflow-y: scroll; }
+    
+    nav {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    ul#menu {
+        margin-top: 0px;
+        float: none;
+    }
+    
+    #logo { position: relative; text-align: center; margin-top: 20px; right: 0; }
+    
+    .wrapper {
+        padding-top: 0px; 
+    }
+    
+    #container {
+        white-space: normal;
+        text-align: center;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+    
+    #container .item {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    
+    #container .item img {
+        max-width: 100%;
+    }
+    
+    #container .item .info {
+        display: none;
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    .load-more {
+        position: absolute;
+        right: auto;
+        top: auto;
+        left: 0;
+        bottom: 0;
+        
+        display: block;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    
+    .load-more a { top: 0px; }
+    
+    h2 {
+        display: block;
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        display: block;
+        width: 100%!important;
+        max-width: none;
+        float: none;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    
+    #detail img {
+        max-height: 100%!important;
+        max-width: 100%!important;
+        height: auto!important;
+        width: auto!important;
+    }
+    
+    #detail .align-width {
+        display: block;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    
+    #detail .align-width img {
+        width: 100%!important;
+    }
+    
+    #detail img {
+        padding: 25px;
+        padding-top: 75px;
+    }
+    
+    #detail .text {
+        top: 100%;
+        left: 0px;
+        margin-top: 0;
+        margin-left: 25px;
+    }
+    
+    #detail .cross {
+        top: 0;
+        left: auto;
+        right: 0;
+        margin-top: 0;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    
+    #logo img {
+        width: 70%;
+    }
+}

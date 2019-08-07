@@ -1,0 +1,25 @@
+Title: Rustende man I
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: acryl/olieverf/doek
+
+----
+
+Size-width: 20
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1986
+
+----
+
+Visible: true

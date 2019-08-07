@@ -1,0 +1,16 @@
+Title: Contact
+
+----
+
+Text: 
+<h2>Dicky van der Zalm</h2>
+<p style="width: 250px; font-size: 1px;">.</p>
+<p>
+	<b>email</b><br />
+	<a href="mailto:info@dickyvanderzalm.nl" target="_blank">info@dickyvanderzalm.nl</a>
+	<br /><br />
+	
+	<b>tumblr</b><br />
+	<a href="http://dickyvdzalm.tumblr.com/" target="_blank">Dicky 2012</a>
+	<br /><br />
+</p>

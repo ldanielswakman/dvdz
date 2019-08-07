@@ -1,0 +1,25 @@
+Title: Boudoir-piece: veil
+
+----
+
+Technique: Mixed media
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 30
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1988
+
+----
+
+Visible: true

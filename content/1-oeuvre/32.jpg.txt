@@ -1,0 +1,25 @@
+Title: Vogel met rode punt
+
+----
+
+Technique: 
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 80
+
+----
+
+Size-height: 100
+
+----
+
+Year: 1985
+
+----
+
+Visible: false

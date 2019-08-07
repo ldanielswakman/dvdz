@@ -1,0 +1,21 @@
+Title: Boudoir-piece: veil
+
+----
+
+Technique: olieverf/doek
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 30
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1988

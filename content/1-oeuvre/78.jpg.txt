@@ -1,0 +1,25 @@
+Title: Boudoir-piece: staand paar
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 25
+
+----
+
+Size-height: 30
+
+----
+
+Year: 1988
+
+----
+
+Visible: true

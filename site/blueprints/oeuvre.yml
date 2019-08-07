@@ -1,0 +1,53 @@
+title: Oeuvre
+
+pages: false
+
+files:
+  fields:
+    title:
+      label: Titel
+      type: text
+    visible:
+      label: Zichtbaar
+      type: toggle
+    technique:
+      label: Techniek
+      type: select
+      options: field
+      field:
+        name: techniques
+    technique_old:
+      label: Techniek (oude naam)
+      type: text
+      readonly: true
+    size_width:
+      label: Breedte (cm)
+      type: number
+      width: 1/2
+      icon: arrows-h
+    size_height:
+      label: Hoogte (cm)
+      type: number
+      width: 1/2
+      icon: arrows-v
+    year:
+      label: Jaar
+      type: number
+      min: 1900
+      icon: calendar
+
+icon: list
+
+fields:
+  title:
+    label: Title
+    type: title
+    required: true
+  info:
+    type: info
+    label: Oeuvrelijst
+    text: >
+      <a href="files" class="btn btn-rounded" style="border-bottom-color: #000;">Klik hier voor de œuvrelijst</a>
+  techniques:
+    label: Technieken
+    type: tags

@@ -1,0 +1,21 @@
+Title: Bunch
+
+----
+
+Technique: olieverf/doek
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 60
+
+----
+
+Size-height: 70
+
+----
+
+Year: 1987

@@ -1,0 +1,21 @@
+Title: Ineengedoken
+
+----
+
+Technique: olieverf/doek
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 80
+
+----
+
+Size-height: 60
+
+----
+
+Year: 1986

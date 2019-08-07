@@ -1,0 +1,24 @@
+title: About
+
+pages:
+  template: team
+  num: zero
+
+files: false
+
+options: 
+  template: false  
+  status: false  
+  
+fields:
+  title:
+    label: Title
+    type: title
+    
+  info:
+    label: Info
+    type: textarea
+    
+  kumulth:
+    label: Kumulth
+    type: textarea

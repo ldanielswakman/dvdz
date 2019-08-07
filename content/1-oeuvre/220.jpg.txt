@@ -1,0 +1,25 @@
+Title: Lamp weerspiegeld
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 50
+
+----
+
+Size-height: 50
+
+----
+
+Year: 2013
+
+----
+
+Visible: true

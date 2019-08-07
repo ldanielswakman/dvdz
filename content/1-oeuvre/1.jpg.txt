@@ -1,0 +1,25 @@
+Title: Zelfportret
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 50
+
+----
+
+Size-height: 60
+
+----
+
+Year: 1979
+
+----
+
+Visible: true

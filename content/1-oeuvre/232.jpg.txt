@@ -1,0 +1,25 @@
+Title: Groene Vaas
+
+----
+
+Visible: true
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: 
+
+----
+
+Size-width: 80
+
+----
+
+Size-height: 100
+
+----
+
+Year: 2014

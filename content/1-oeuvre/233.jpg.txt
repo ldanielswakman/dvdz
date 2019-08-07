@@ -1,0 +1,25 @@
+Title: Leerdam I
+
+----
+
+Visible: true
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: 
+
+----
+
+Size-width: 50
+
+----
+
+Size-height: 60
+
+----
+
+Year: 2018

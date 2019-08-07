@@ -1,0 +1,25 @@
+Title: Paar V
+
+----
+
+Technique: 
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 50
+
+----
+
+Size-height: 50
+
+----
+
+Year: 1986
+
+----
+
+Visible: false

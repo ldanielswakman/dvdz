@@ -1,0 +1,25 @@
+Title: Arconaplatz
+
+----
+
+Visible: true
+
+----
+
+Technique: Olieverf
+
+----
+
+Technique-old: 
+
+----
+
+Size-width: 25
+
+----
+
+Size-height: 35
+
+----
+
+Year: 2015

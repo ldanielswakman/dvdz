@@ -1,0 +1,25 @@
+Title: Kind V
+
+----
+
+Technique: Acrylverf
+
+----
+
+Technique-old: acryl/doek
+
+----
+
+Size-width: 18
+
+----
+
+Size-height: 20
+
+----
+
+Year: 1992
+
+----
+
+Visible: true

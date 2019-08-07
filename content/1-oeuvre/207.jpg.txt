@@ -1,0 +1,25 @@
+Title: Rozengeur VII
+
+----
+
+Technique: Aquarel
+
+----
+
+Technique-old: aquarel
+
+----
+
+Size-width: 64
+
+----
+
+Size-height: 44
+
+----
+
+Year: 2003
+
+----
+
+Visible: true

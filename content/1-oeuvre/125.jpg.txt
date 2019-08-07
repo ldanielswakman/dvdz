@@ -1,0 +1,25 @@
+Title: Oase
+
+----
+
+Technique: 
+
+----
+
+Technique-old: olie/doek
+
+----
+
+Size-width: 100
+
+----
+
+Size-height: 100
+
+----
+
+Year: 1991
+
+----
+
+Visible: false

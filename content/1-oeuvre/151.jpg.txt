@@ -1,0 +1,25 @@
+Title: Kind II
+
+----
+
+Technique: Acrylverf
+
+----
+
+Technique-old: acryl/doek
+
+----
+
+Size-width: 20
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1992
+
+----
+
+Visible: true

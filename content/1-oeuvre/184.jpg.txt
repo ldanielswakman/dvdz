@@ -1,0 +1,25 @@
+Title: Berlijns hof
+
+----
+
+Technique: Telefoontekening
+
+----
+
+Technique-old: telefoontekening
+
+----
+
+Size-width: 0
+
+----
+
+Size-height: 0
+
+----
+
+Year: 2012
+
+----
+
+Visible: true

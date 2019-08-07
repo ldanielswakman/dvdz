@@ -1,0 +1,25 @@
+Title: Strot
+
+----
+
+Technique: Acrylverf
+
+----
+
+Technique-old: acryl/doek
+
+----
+
+Size-width: 100
+
+----
+
+Size-height: 130
+
+----
+
+Year: 1984
+
+----
+
+Visible: true

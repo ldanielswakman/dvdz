@@ -1,0 +1,25 @@
+Title: Vrouw X
+
+----
+
+Technique: Acrylverf
+
+----
+
+Technique-old: acryl/multiplex
+
+----
+
+Size-width: 20
+
+----
+
+Size-height: 25
+
+----
+
+Year: 1991
+
+----
+
+Visible: false

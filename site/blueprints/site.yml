@@ -1,0 +1,11 @@
+title: Site
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+    

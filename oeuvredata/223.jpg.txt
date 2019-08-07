@@ -1,0 +1,21 @@
+Title: Gure boom
+
+----
+
+Technique: olieverf/doek
+
+----
+
+Technique-old: olieverf/doek
+
+----
+
+Size-width: 60
+
+----
+
+Size-height: 75
+
+----
+
+Year: 2013
